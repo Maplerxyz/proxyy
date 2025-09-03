@@ -1,0 +1,6 @@
+[build]
+command = "pnpm build:netlify"
+publish = ".netlify"
+edge_functions = ".netlify/functions"
+[functions]
+  directory = ".netlify/functions"
